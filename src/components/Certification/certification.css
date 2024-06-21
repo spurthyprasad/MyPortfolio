@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+}
+
+/* Container */
+.certificationsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: #1a1a1a;
+}
+
+/* Title */
+.pageTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f4f5a7;
+    text-align: center;
+}
+
+/* Certifications List */
+.certificationsList {
+    list-style-type: none;
+    padding: 0;
+    max-width: 80rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.certificationItem {
+    background: #252525;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificationItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.certificationIcon {
+    font-size: 2rem;
+    color: #ffc107; /* Yellow color for icons */
+    margin-right: 1rem;
+}
+
+.certificationContent {
+    flex: 1;
+}
+
+.certificationText {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Paper Publications List */
+.publicationItem {
+    background: #252525;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publicationItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.publicationIcon {
+    font-size: 2rem;
+    color: #ffc107; /* Yellow color for icons */
+    margin-right: 1rem;
+}
+
+.publicationContent {
+    flex: 1;
+}
+
+.publicationTitle {
+    font-size: 1.5rem;
+    color: #f4f5a7;
+    margin-bottom: 0.5rem;
+}
+
+.publicationDetails {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.publicationLink {
+    font-size: 1rem;
+    color: #f4f5a7;
+    text-decoration: none;
+}
+
+.publicationLink:hover {
+    text-decoration: underline;
+}

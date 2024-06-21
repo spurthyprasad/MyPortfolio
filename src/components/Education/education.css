@@ -1,0 +1,53 @@
+.educationContainer {
+  background-color: #1a1a1a; /* Dark background */
+  color: #e6e6e6; /* Light text color */
+  padding: 2rem;
+}
+
+.educationTitle {
+  font-size: 2.5rem;
+  color: #ffd700; /* Yellow color for title */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.educationForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.educationCard {
+  background-color: #333; /* Darker background for cards */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  margin: 1rem;
+  width: 300px; /* Fixed width for each card */
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.labelText {
+  font-size: 1.2rem;
+  color: #ffd700; /* Yellow color for label text */
+}
+
+.formInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #444; /* Darker input background */
+  color: #ccc; /* Light text color */
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formInput:read-only {
+  background-color: #333; /* Dark background for read-only inputs */
+}
+
