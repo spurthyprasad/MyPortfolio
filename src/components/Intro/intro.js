@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css'
+import bg from '../../assets/bg.png'
 // import {Link} from 'react-scroll';
 // import hire from '../../assets/hireme.jpg'
 
@@ -16,7 +17,7 @@ emphasizing commitment and teamwork, where I can make a significant contribution
     {/* <Link><button className='btn'><img src={hire} alt=''/>Hire Me</button></Link> */}
     </div>
 
-    {/* image mustb me placed here */}
+    <img src={bg} alt='Profile' className='bg'/>
     </section>
   )
 }
